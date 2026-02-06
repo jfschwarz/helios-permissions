@@ -12,13 +12,6 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.11.0.tgz#42cc67c5baa407ac25059fcd7d405cc5ecdb0c33"
   integrity sha512-/3DDPKHqqIqxUULp8yP4zODUY1i+2xvVWsv8A79xGWdCAG+8sb0hRh0Rk2QyOJUnnbyPUAZYcpBuRe3nS2OIUg==
 
-"@asteasolutions/zod-to-openapi@^5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@asteasolutions/zod-to-openapi/-/zod-to-openapi-5.5.0.tgz#f3be8f1e97ece0fcef2e6ff5e9230da8138d20a6"
-  integrity sha512-d5HwrvM6dOKr3XdeF+DmashGvfEc+1oiEfbscugsiwSTrFtuMa7ETpW9sTNnVgn+hJaz+PRxPQUYD7q9/5dUig==
-  dependencies:
-    openapi3-ts "^4.1.2"
-
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -30,24 +23,6 @@
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@gnosis-guild/eth-sdk-client/-/eth-sdk-client-0.1.6.tgz#b6b396072532f0796d5dac040647f9ee3b9ca112"
   integrity sha512-v+DAOqfeBIVIsnBYbe5ZL40qgOULJdeS1hxL1uMfHsf7Ph0MfjokUFx3WpqFdg+D0nuNsbYVkmZIv8MALDvahw==
-
-"@gnosis-guild/eth-sdk@^0.3.7":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@gnosis-guild/eth-sdk/-/eth-sdk-0.3.8.tgz#27f6f9bdb186ddc4f406f26e165d9b32b5685497"
-  integrity sha512-Qdn9SQxMPRee2ErlWnuHZBXk6bg2R9HqJORaTUgYu7/VqIEXjhGMdazxNLqvWZQB2c7ftpK+kcsF0B136MQu2Q==
-  dependencies:
-    "@gnosis-guild/typechain-ethers-v6" "^0.5.3"
-    chalk "^4.1.2"
-    commander "^8.3.0"
-    debug "^4.3.2"
-    fs-extra "^10.0.0"
-    glob "7.1.7"
-    got "^11.8.2"
-    lodash "^4.17.21"
-    mkdirp "^1.0.4"
-    ora "^5.4.1"
-    typechain "^8.0.0"
-    zod "^3.11.5"
 
 "@gnosis-guild/eth-sdk@^0.4.0":
   version "0.4.0"
@@ -73,27 +48,6 @@
   dependencies:
     lodash "^4.17.15"
     ts-essentials "^7.0.1"
-
-"@gnosis-guild/zodiac@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@gnosis-guild/zodiac/-/zodiac-4.0.3.tgz#18dcf75a47a3a38c5b3d8d1beb2e5536f08ab482"
-  integrity sha512-9OIJMQYwQ+e7OOyRFj3mzLg0/3/pWNwTB8hjIPQiUJry+rE8YV+BuUrVx7ejT/TNdKvgzGW0yjcAC6Wg7CGkGg==
-  dependencies:
-    "@gnosis.pm/mock-contract" "^4.0.0"
-    "@gnosis.pm/safe-contracts" "1.3.0"
-    "@openzeppelin/contracts" "^5.0.0"
-    "@openzeppelin/contracts-upgradeable" "^5.0.0"
-    ethers "^6.9.2"
-
-"@gnosis.pm/mock-contract@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/mock-contract/-/mock-contract-4.0.0.tgz#eaf500fddcab81b5f6c22280a7b22ff891dd6f87"
-  integrity sha512-SkRq2KwPx6vo0LAjSc8JhgQstrQFXRyn2yqquIfub7r2WHi5nUbF8beeSSXsd36hvBcQxQfmOIYNYRpj9JOhrQ==
-
-"@gnosis.pm/safe-contracts@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-contracts/-/safe-contracts-1.3.0.tgz#316741a7690d8751a1f701538cfc9ec80866eedc"
-  integrity sha512-1p+1HwGvxGUVzVkFjNzglwHrLNA67U/axP0Ct85FzzH8yhGJb4t9jDjPYocVMzLorDoWAfKicGy1akPY9jXRVw==
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
@@ -148,16 +102,6 @@
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.7.1.tgz#5738f6d765710921e7a751e00c20ae091ed8db0f"
   integrity sha512-B8XBPsn4vT/KJAGqDzbwztd+6Yte3P4V7iafm24bxgDe/mlRuK6xmWPuCNrKt2vDafZ8MfJLlchDG/vYafQEjQ==
-
-"@openzeppelin/contracts-upgradeable@^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-5.2.0.tgz#caf9a6eaf4f16d7f90f9b45a6db4e7b125f4b13b"
-  integrity sha512-mZIu9oa4tQTlGiOJHk6D3LdJlqFqF6oNOSn6S6UVJtzfs9UsY9/dhMEbAVTwElxUtJnjpf6yA062+oBp+eOyPg==
-
-"@openzeppelin/contracts@^5.0.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-5.2.0.tgz#bd020694218202b811b0ea3eec07277814c658da"
-  integrity sha512-bxjNie5z89W1Ea0NZLZluFh8PrFNn9DH8DQlujEok2yjsOlraUPKID5p1Wk3qdNbf6XkQ1Os2RvfiHrrXLHWKA==
 
 "@peculiar/asn1-schema@^2.3.13":
   version "2.3.15"
@@ -622,19 +566,6 @@ defer-to-connect@^2.0.0:
   resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-2.0.1.tgz#8016bdb4143e4632b77a3449c6236277de520587"
   integrity sha512-4tvttepXG1VaYGrRibk5EwJd1t4udunSOVMdLSAL6mId1ix438oPwPZMALY41FCijukO1L0twNcGsdzS7dHgDg==
 
-defi-kit@^2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/defi-kit/-/defi-kit-2.17.0.tgz#32577ab9d0c7057318581cfc7d3e7fde416e1333"
-  integrity sha512-CFr03cV80ddOmKr80ulR5BEYjIp57OJhy74G2nJNAZbizAUtydoGvdYunj2YLZu6Oyjdw7XSaIx67eiaSdzyGg==
-  dependencies:
-    "@asteasolutions/zod-to-openapi" "^5.5.0"
-    "@gnosis-guild/eth-sdk" "^0.3.7"
-    "@gnosis-guild/eth-sdk-client" "^0.1.6"
-    "@gnosis-guild/zodiac" "^4.0.3"
-    ethers "^6.13.4"
-    zod "^3.22.2"
-    zodiac-roles-sdk "^3.0.1"
-
 define-lazy-prop@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/define-lazy-prop/-/define-lazy-prop-2.0.0.tgz#3f7ae421129bcaaac9bc74905c98a0009ec9ee7f"
@@ -677,7 +608,7 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
 
-ethers@^6.13.4, ethers@^6.13.5, ethers@^6.9.2:
+ethers@^6.13.4, ethers@^6.13.5:
   version "6.13.5"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.13.5.tgz#8c1d6ac988ac08abc3c1d8fabbd4b8b602851ac4"
   integrity sha512-+knKNieu5EKRThQJWwqaJ10a6HE9sSehGeqWN65//wE7j47ZpFhKAnHB/JJFibwwg61I/koxaPsXbXpD/skNOQ==
@@ -916,7 +847,7 @@ lodash.camelcase@^4.3.0:
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==
 
-lodash@^4.17.15, lodash@^4.17.21:
+lodash@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -1022,13 +953,6 @@ open@^8.4.2:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
-
-openapi3-ts@^4.1.2:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/openapi3-ts/-/openapi3-ts-4.4.0.tgz#eff29958e601deec24459ea811989a4fb59d4116"
-  integrity sha512-9asTNB9IkKEzWMcHmVZE7Ts3kC9G7AFHfs8i7caD8HbI76gEjdkId4z/AkP83xdZsH7PLAnnbl47qZkXuxpArw==
-  dependencies:
-    yaml "^2.5.0"
 
 ora@^5.4.1:
   version "5.4.1"
@@ -1466,11 +1390,6 @@ y18n@^5.0.5:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
-yaml@^2.5.0:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.7.1.tgz#44a247d1b88523855679ac7fa7cda6ed7e135cf6"
-  integrity sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==
-
 yargs-parser@^21.1.1:
   version "21.1.1"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
@@ -1494,7 +1413,7 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-zod@^3.11.5, zod@^3.22.2:
+zod@^3.11.5:
   version "3.24.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
   integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==

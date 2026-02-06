@@ -6,7 +6,7 @@
   },
   "scripts": {
     "setup": "eth-sdk -p ./.lib/eth-sdk",
-    "apply": "rimraf build && tsc && node build/.lib/scripts/apply.js"
+    "apply": "rimraf build && tsc && node build/.lib/scripts/apply.js altManagerRole base:0x7d52ef602f7bf1472a144c6cf8e56ba84b86a2e6"
   },
   "dependencies": {
     "@gnosis-guild/eth-sdk": "^0.4.0",
@@ -14,7 +14,6 @@
     "@safe-global/api-kit": "^2.3.0",
     "@types/node": "^20.12.7",
     "@types/yargs": "^17.0.33",
-    "defi-kit": "^2.17.0",
     "ethers": "^6.13.4",
     "open": "^8.4.2",
     "prettier": "^3.0.0",
