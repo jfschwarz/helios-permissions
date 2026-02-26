@@ -33,7 +33,7 @@ export default [
   // https://app.morpho.org/base/vault/0xE74c499fA461AF1844fCa84204490877787cED56/high-yield-clearstar-usdc
   allowMorphoDeposit(usdc, "0xE74c499fA461AF1844fCa84204490877787cED56"),
   allowMorphoWithdraw(usdc, "0xE74c499fA461AF1844fCa84204490877787cED56"),
-  
+
   // https://app.morpho.org/base/vault/0xBEEFA7B88064FeEF0cEe02AAeBBd95D30df3878F/steakhouse-high-yield-usdc-v11
   allowMorphoDeposit(usdc, "0xBEEFA7B88064FeEF0cEe02AAeBBd95D30df3878F"),
   allowMorphoWithdraw(usdc, "0xBEEFA7B88064FeEF0cEe02AAeBBd95D30df3878F"),
@@ -41,4 +41,29 @@ export default [
   // https://app.morpho.org/base/vault/0xbeeff7aE5E00Aae3Db302e4B0d8C883810a58100/steakhouse-high-yield-instant
   allowMorphoDeposit(usdc, "0xbeeff7aE5E00Aae3Db302e4B0d8C883810a58100"),
   allowMorphoWithdraw(usdc, "0xbeeff7aE5E00Aae3Db302e4B0d8C883810a58100"),
+
+  /// Euler batch function
+  allow.base.euler.EthereumVaultConnector.batch(
+    c.every({
+      targetContract: c.or(
+        "0x0cE811D4171c2ab8bD8BeF5BeCf13Dc40baB0539",
+        "0x4C1aeda9B43EfcF1da1d1755b18802aAbe90f61E",
+      ),
+      data: c.or(
+        c.calldataMatches(
+          allow.base.euler.AlphaGrowthVault.deposit(undefined, c.avatar),
+        ),
+        c.calldataMatches(
+          allow.base.euler.AlphaGrowthVault.withdraw(
+            undefined,
+            c.avatar,
+            c.avatar,
+          ),
+        ),
+        c.calldataMatches(allow.base.euler.TermsOfUse.signTermsOfUse()),
+      ),
+      value: 0,
+      onBehalfOfAccount: "0xc495931f2237381B9739d9E8f33aeADA1dD61e21",
+    }),
+  ),
 ] satisfies Permissions;
